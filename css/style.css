@@ -52,6 +52,7 @@ h1 {
     color: aliceblue;
     letter-spacing: 5px;
     font-size: 50px;
+    margin: 5px;
 }
 
 
@@ -182,6 +183,9 @@ main.homepage{
 
 }
 
+/*Vill försöka att göra så att bilderna förstoras när man hovrar över dem och att namnet dyker upp under. 
+Kan nog använda .recipe-img:hover och göra en dropdownmeny eller ngt*/
+
 .recipe-img {
     align-self: center;
 }
@@ -239,6 +243,7 @@ h2 {
     justify-content: center;
     padding: 10px auto 10px auto;
     margin: 30px;
+    border: 1px rgb(249, 189, 173) inset;
 }
 
 #staff-section {
