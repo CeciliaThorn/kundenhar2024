@@ -39,7 +39,7 @@ header {
     margin: 10px;
     padding: 0 20px 0 20px;
     align-content: center;
-    border-radius: 5px;
+    border-radius: 25px;
     font-size: 20px;
 }
 
@@ -75,6 +75,7 @@ nav {
     margin: 10px;
     padding: 0 20px 0 20px;
     align-content: center;
+    border-radius: 3px;
 }
 
 /*Links*/
@@ -205,7 +206,7 @@ h2 {
 .news-box {
     display: flex;
     flex-direction:row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background-color: white;
     border: 1px solid rgb(123, 123, 123);
     padding: 10px;
@@ -220,20 +221,31 @@ h2 {
 
 .news-img {
     align-self: center;
-    justify-self: flex-end;
+    margin: 0px 0px 0px auto;
 }
 
 /*Staff page*/
 
-#staff-page {
+.staff-page{
+    background-color: rgb(255 87 51);
+}
+
+#staff-main {
+    display: flex;
+    flex-direction: column;
     justify-self: center;
     width: 600px;
+    background-color: rgb(250, 253, 240);
+    justify-content: center;
+    padding: 10px auto 10px auto;
+    margin: 30px;
 }
 
 #staff-section {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
+    padding: 20px auto 10px auto;
 }
 
 .staff-box {
@@ -241,7 +253,8 @@ h2 {
     width: 150px;
     margin: 20px;
     justify-items: center;
-/*    border: 2px dashed rgb(123, 123, 123);*/
+    border: 3px rgb(231, 241, 197) outset;
+    background-color: white;
 }
 
 
