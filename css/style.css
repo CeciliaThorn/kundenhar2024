@@ -249,8 +249,7 @@ h2 {
 #staff-section {
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
-    padding: 20px auto 10px auto;
+    justify-content: center;
 }
 
 .staff-box {
