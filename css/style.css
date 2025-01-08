@@ -110,9 +110,9 @@ main.homepage{
 }
 
 #home_main_logo {
-    margin: 10px;
+    margin: 10px 0px 0px 0px;
 }
-
+ 
 .searchbar{
     height: 30px;
     width: 250px;
@@ -233,6 +233,7 @@ h3 {
 .news-img {
     align-self: center;
     margin: 0px 0px 0px auto;
+    height: 30px;
 }
 
 /*Staff page*/
