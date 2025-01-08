@@ -33,7 +33,7 @@ header {
 }
 
 #loginbutton {
-    background-color: turquoise;
+    background-color: rgb(64, 224, 208);
     border: 2px rgb(39, 188, 173);
     height: 50px;
     margin: 10px;
@@ -250,10 +250,11 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color:rgb(181, 35, 2)
 }
 
 .staff-box {
-    height: 150px;
+    height: fit-content;
     width: 150px;
     margin: 20px;
     justify-items: center;
@@ -261,5 +262,12 @@ h2 {
     background-color: white;
 }
 
+.staff-img {
+    width:100px;
+    margin: 10px;
+}
 
-
+.staff_job_title {
+    color:rgb(48, 48, 48);
+    font-size: 12px;
+}
