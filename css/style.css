@@ -192,6 +192,8 @@ Kan nog använda .recipe-img:hover och göra en dropdownmeny eller ngt*/
 
 .recipe-rating {
     align-self: end;
+    width: 80px;
+    margin: 5px;
 }
 
 
@@ -219,9 +221,9 @@ h2 {
     height: fit-content;
 }
 
-/*h3 {
-    justify-self: flex-start;
-}*/
+h3 {
+    font-weight: 300;
+}
 
 .news-img {
     align-self: center;
