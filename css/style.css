@@ -188,6 +188,7 @@ Kan nog använda .recipe-img:hover och göra en dropdownmeny eller ngt*/
 
 .recipe-img {
     align-self: center;
+    width: 180px;
 }
 
 .recipe-rating {
