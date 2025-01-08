@@ -109,6 +109,10 @@ main.homepage{
     font-style: italic;
 }
 
+#home_main_logo {
+    margin: 10px;
+}
+
 .searchbar{
     height: 30px;
     width: 250px;
